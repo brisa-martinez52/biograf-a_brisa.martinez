@@ -1,0 +1,36 @@
+.titulo-animado{
+    text-align: center;
+    animation: agrandar 1s ease-out;
+}
+@keyframes agrandar{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.imagen{
+    display: block;
+    margin: 0 auto;
+}
+.parrafo{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+header{
+    background-color: darksalmon;
+    padding: 10px 12px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(236, 179, 193);
+    
+}
+.cuestionario{
+    text-align: center;
+}
